@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript APIs</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>JavaScript Weather App</h1> 
+        <form id="form">     
+        <div id="inputContainer">
+            <label for="searchWord">Weather Search:</label>
+            <input style="margin: 2rem" type="text" id="searchWord" />
+            <button id="submitSearch">Search</button> 
+            <br>
+            <input type="radio" id="fahrenheit" name="degrees" value="imperial" />
+            <label for="fahrenheit">℉</label>
+            <br>
+            <input type="radio" id="celsius" name="degrees" value="metric" />
+            <label for="celsius">&#8451;</label>
+            <div>
+        </form> 
+        <div id="weatherData" class="hidden">
+          <!-- <img
+            src="#"
+            alt="Giphy Selection"            
+          /> -->
+          <p id="response"></p>
+        </div>
+        <p id="feedback"></p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
